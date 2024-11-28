@@ -1,7 +1,7 @@
 #include "Ball.hpp"  
 #include <cmath>     
 
-// Конструктор класса Ball, инициализирует объект с заданными параметрами
+// Конструктор класса Ball, инициализирует объект с заданными параметрами mass radius set
 Ball::Ball(const Velocity velocity, const Point center, double radius, const Color color, bool isCollidable): 
      velocity_(velocity), center_(center), radius_(radius), color_(color), isCollidable_(isCollidable) {}
 
